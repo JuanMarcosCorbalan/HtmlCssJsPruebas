@@ -1,0 +1,25 @@
+body{
+}
+
+/* 
+un comentario 
+*/ 
+
+h1{
+    /* width: 40; */
+    color: green;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+    border: 5px solid red;
+}
+
+p{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}

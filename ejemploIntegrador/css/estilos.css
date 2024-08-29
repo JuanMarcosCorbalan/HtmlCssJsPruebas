@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #398d18;
+    height: 90px;
+    width: 100vw;
+    text-align: center;
+}
+
+header div{
+    display: block;
+    height: 100%;
+    width: 80%;
+}
+
+.img-logo {
+    height: 90px;
+    display: inline-block;
+}
+
+nav {
+    display: inline;
+    float: right;
+}
+nav ul {
+    display: inline-block;
+}
+nav ul li {
+    display: inline-block;
+    font-family: "Nunito", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    padding-right: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.form-container{
+    width: 70%;
+}
+.form-title-container{
+    display: flex;
+    flex-direction: flow;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-title-container h3{
+    font-family: "Nunito", sans-serif;
+    font-size: 32px;
+    color: #398d18;
+    
+}
+
+.underline-wavy{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 10px;
+}
+
+.botoncito{
+    font-family: "Nunito", sans-serif;
+    background-color: white;
+    color: rgb(155, 143, 129);
+    border: 2px solid chocolate;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 25px 10px 25px;
+
+}
+
+form{
+    background-color: rgb(201, 201, 201);
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 15px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: auto auto auto;
+    padding: 45px;
+    width: 70vw;
+}
+
+.grid-item label {
+    display:block;
+    margin-bottom: 10px;
+}
+
+.grid-item .text-input{
+    width: 100%;
+    background-color: #398d18;
+    border: none;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.radio-item {
+    display: inline-block;
+}
+
+.radio-item input, .radio-item label{
+    display: inline-block;
+}
